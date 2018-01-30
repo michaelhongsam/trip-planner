@@ -8,7 +8,76 @@
     <script src="./bundle.js" defer></script>
   </head>
   <body>
-    <div id="map"></div>
+    <div class="navbar">
+      <h1>Trip Planner</h1>
+    </div>
+    <div class="main">
+        <div id="map"></div>
+        <div id="control-panel">
+          <div id="categories">
+            <div class="category">
+              <h2>Hotels</h2>
+              <form>
+                  <select>
+                    <option>Hotel</option>
+                  </select>
+                  <button>+</button>
+              </form>
+            </div>
+            <div class="category">
+                <h2>Restaurants</h2>
+                <form>
+                    <select>
+                      <option>Restaurant</option>
+                    </select>
+                    <button>+</button>
+                </form>
+              </div>
+              <div class="category">
+                  <h2>Things To Do</h2>
+                  <form>
+                      <select>
+                        <option>Thing</option>
+                      </select>
+                      <button>+</button>
+                  </form>
+                </div>
+          </div>
+          <div id="itinerary">
+            <h2>Itinerary</h2>
+            <div class="my-stuff">
+              <div class="my-hotels">
+                <h3>My Hotel</h3>
+                <ul>
+                  <li>
+                    <p>My first hotel!</p>
+                    <button>x</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="my-restaurants">
+                  <h3>My Restaurant</h3>
+                  <ul>
+                    <li>
+                      <p>My first restaurant!</p>
+                      <button>x</button>
+                    </li>
+                  </ul>
+              </div>
+              <div class="my-activities">
+                  <h3>My Activity</h3>
+                  <ul>
+                    <li>
+                      <p>My first activity!</p>
+                      <button>x</button>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    
     
   </body>
 </html>

@@ -8,7 +8,56 @@
     background-color: #C1B5AD;
   }
 
-  #map {
-      height: 100vh;
-      width: 100vw; 
+  .navbar {
+    height: 5vh;
+    width: 100vw;
+    background-color: red;
+    
   }
+
+  .navbar h1 {
+    margin: 0;
+    text-align: center;
+  }
+
+  .main {
+    display: flex;
+    height: 95vh;
+    width: 100vw;
+  }
+
+  #map {
+    flex: 3;
+  }
+
+  #control-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #categories {
+    flex: 1;
+    padding: 10px;
+  }
+
+  #itinerary {
+    flex: 1;
+    background-color: green;
+  }
+
+  #itinerary h2{
+    flex: 1;
+    background-color: orange;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .my-stuff {
+    padding: 10px;
+  }
+
+  .my-stuff p {
+    display: inline-block;
+  }
+  

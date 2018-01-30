@@ -11,5 +11,6 @@ const map = new mapboxgl.Map({
 });
 
 
-const marker = buildMarker("activity", [-74.009151, 40.705086]); // or [-87.6354, 41.8885]
+
+const marker = buildMarker("activity", [-74.009151, 40.705086])
 marker.addTo(map);
